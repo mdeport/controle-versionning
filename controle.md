@@ -44,13 +44,7 @@ Cette commande git log --graph --oneline va nous permettre de voir l'historique 
 Et va bien nous permettre de comprendre l'historique de commit fait.
 
 Questions 9:
-Vous devez créer un changement fictif dans labranche feature/myfeature, le committer, puis utiliser git rebase master avant de pousser la branche sur votre fork.
-Commandes :
-git add .
-git commit -m "Fictive Feature"
-git rebase master
-git push origin feature/myfeature
-Décrivez chaque étape du processus, en expliquant particulièrement l'impact de git rebase master et pourquoi il est important avant de pousser la branche.
+
 git add . : permet d'ajouter les fichiers modifiés dans le commit et avant de faire le commit
 git commit -m "Fictive Feature" : permet de créer un commit avec le message "Fictive Feature"
 git rebase master : permet de mettre à jour la branche feature/myfeature avec les modifications de la branche master
